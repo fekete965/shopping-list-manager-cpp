@@ -37,5 +37,11 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# Vscode
+.vscode
+
+# Generated files
+shopping_list.txt
