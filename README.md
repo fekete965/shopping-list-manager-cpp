@@ -31,11 +31,21 @@ Where:
 
 ## Build
 
-Compile with `g++`:
+You can build either directly with `g++` or with the helper script.
+
+Direct compile:
 
 ```bash
 g++ -std=c++17 -Wall -Wextra -o main main.cpp
 ```
+
+Using script:
+
+```bash
+bash build.sh
+```
+
+Note for Windows: `chmod +x build.sh` is often unnecessary in Git Bash. Running `bash build.sh` is the most reliable option.
 
 ## Run
 
